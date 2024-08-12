@@ -1,0 +1,44 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.Shop-Main-Container {
+  align-items: center;
+  display: flex;
+}
+.Shop-Container {
+  width: 100%;
+  padding: 50px;
+}
+.Shop-logo {
+  border-bottom: 1px solid rgb(235, 231, 231);
+  width: 95%;
+  margin-bottom: 5px;
+}
+.shop-logo-main-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shop-logo-main-div p {
+  color: #025048;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+.Showing-all {
+  color: #025048;
+  font-size: 20px;
+  padding: 30px;
+}
+.Products{
+  margin-left: 18px;
+}
+.ceramic-cup-7{
+  height: 380px;
+  width: 380px;
+}
+.ceramic-cup-8{
+  height: 380px;
+  width: 380px;
+}

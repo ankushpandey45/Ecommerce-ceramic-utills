@@ -1,0 +1,39 @@
+.Logo-icon a {
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.Link-class ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Link-class li {
+  margin: 0 10px;
+}
+
+.Link-class a {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+.Link-class2 ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Link-class2 a {
+  text-decoration: none;
+  color: #025048;
+  font-size: 16px;
+}
+
+.Link-class2 li {
+  margin: 0 10px;
+}

@@ -1,0 +1,467 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+.Front-page {
+  background-color: #025048;
+  width: 100%;
+  height: 700px;
+  position: relative;
+}
+.nav-div {
+  background-color: #025048;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 26px;
+  gap: 280px;
+}
+.nav-div-footer {
+  background-color: #f1f4f1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 35px 26px;
+  gap: 280px;
+}
+
+.Logo-icon {
+  color: white;
+  margin-left: 40px;
+  font: 25px "playfair Display", serif;
+}
+.Logo-icon:hover {
+  cursor: pointer;
+ 
+}
+.Link-class {
+  color: white;
+  gap: 10px;
+  text-align: center;
+  display: flex;
+  
+}
+.Link-class2 {
+  color: #025048;
+  gap: 10px;
+  text-align: center;
+  display: flex;
+}
+.Logo-icon2 {
+  color: #025048;
+  margin-left: 40px;
+  font: 25px "playfair Display", serif;
+}
+li {
+  list-style: none;
+}
+.Link1 {
+  margin: 10px;
+  font: 15px "Work Sans", sans-serif;
+}
+.Link1:hover {
+  cursor: pointer;
+  transition: all 0.2s;
+  transform: scale(1.5);
+}
+.Link2 {
+  margin: 15px;
+  font: 15px "Work Sans", sans-serif;
+}
+.Link2:hover {
+  cursor: pointer;
+  box-shadow: #025048;
+}
+.Link3 {
+  margin: 15px;
+  font: 15px "Work Sans", sans-serif;
+}
+.Link3:hover {
+  cursor: pointer;
+  box-shadow: #025048;
+}
+.Link4 {
+  margin: 15px;
+  font: 15px "Work Sans", sans-serif;
+}
+.Link4:hover {
+  cursor: pointer;
+  box-shadow: #025048;
+}
+.cart-div {
+  color: white;
+  font-size: 20px;
+  margin-left: 130px;
+}
+.cart-div:hover {
+  cursor: pointer;
+}
+.ceramic-img {
+  margin-top: 440px;
+  margin-right: 290px;
+  transform: translateY(-50%);
+}
+.img-1,
+.img-2 {
+  position: absolute;
+}
+.img-1 {
+  width: 300px;
+  height: 400px;
+  margin-top: 34px;
+  z-index: 2;
+  top: 10%;
+  left: 10%;
+  transform: translate(-120%, -65%);
+}
+.img-2 {
+  width: 430px;
+  height: 700px;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+}
+.Text-div {
+  color: white;
+}
+.pic-text-div {
+  display: flex;
+  justify-content: space-between;
+}
+.text-container {
+  margin-top: 120px;
+  margin-left: 70px;
+}
+.welcome-p {
+  font: 17px "Work Sans", sans-serif;
+
+  padding: 10px;
+}
+.texts-div {
+  padding: 10px;
+  font-size: 34px;
+}
+.btn-span {
+  padding: 10px;
+  margin-top: 15px;
+}
+.shop-now-btn {
+  padding: 10px;
+  width: 160px;
+  height: 50px;
+  background-color: #025048;
+  border: 1px solid white;
+  color: white;
+  font-size: 15px;
+  transition-duration: 0.3s;
+}
+.shop-now-btn:hover {
+  cursor: pointer;
+  background-color: white;
+  color: #025048;
+}
+.about-product-div {
+  color: #025048;
+}
+.About-container {
+  margin-top: 130px;
+  padding: 70px;
+}
+.about-h5 {
+  margin-bottom: 33px;
+  font: 15px "Work Sans", sans-serif;
+  font-weight: 600;
+}
+.para-About {
+  font-size: 55px;
+  font-weight: 500;
+}
+.About-product-div-2 {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.utills-1 {
+  width: 550px;
+  height: 750px;
+}
+.utills-2 {
+  width: 550px;
+  height: 370px;
+  margin-top: 70px;
+}
+.para-about-2 {
+  color: #025048;
+  margin-top: 30px;
+  font-size: 29px;
+}
+.para-3 {
+  color: #025048;
+  margin-top: 20px;
+  font: 17px "Work Sans", sans-serif;
+  padding: 5px;
+}
+.about-product-3 {
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.read-btn {
+  padding: 10px;
+  width: 160px;
+  height: 50px;
+  background-color: white;
+  border: 1px solid #025048;
+  color: #025048;
+  font-size: 15px;
+  transition-duration: 0.3s;
+}
+.read-btn:hover {
+  cursor: pointer;
+  background-color: #025048;
+  color: white;
+}
+.read-btn-div {
+  margin-top: 22px;
+}
+.bestceramic-section {
+  width: 100%;
+  height: 1060px;
+  background-color: #f1f4f1;
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-around;
+}
+.Bestceramic-sec1 {
+  margin-top: 110px;
+  color: #025048;
+}
+.Bestceramic-sec2 {
+  height: 1300px;
+}
+.stylish-ceramic {
+  height: 570px;
+  width: 550px;
+}
+.trending-ceramic {
+  height: 570px;
+  width: 550px;
+}
+.garden-accent {
+  height: 570px;
+  width: 550px;
+}
+.bestceramic-p1 {
+  font: 15px "Work Sans", sans-serif;
+  padding: 10px;
+}
+.bestceramic-p2 {
+  font-size: 55px;
+  padding: 10px;
+}
+.bestceramic-p3 {
+  font: 16px "Work Sans", sans-serif;
+  padding: 4px;
+}
+.bottom-p-div {
+  padding: 10px;
+}
+.Bestceramic-sec2 {
+  position: relative;
+  justify-content: space-between;
+}
+.ceramic-samples {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+  margin-top: 60px;
+}
+.most-popular-p1 {
+  font: 15px "Work Sans", sans-serif;
+  color: #025048;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.most-popular-p2 {
+  color: #025048;
+  font-size: 55px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.most-popular-main-div {
+  padding: 75px;
+  margin-top: 100px;
+}
+.ceramic-cup {
+  width: 380px;
+  cursor: pointer;
+}
+.sample-text-div {
+  margin-top: 20px;
+}
+.ceramic-cup-p1 {
+  color: rgb(170, 163, 163);
+  font: "Work Sans", sans-serif;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.ceramic-cup-p2 {
+  font-size: 23px;
+  color: #025048;
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.stars {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+.ceramic-cup-p3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #025048;
+  cursor: pointer;
+}
+.bottom-cards {
+  margin-top: 50px;
+}
+.img-background {
+  background-image: url("https://nestasia.in/cdn/shop/products/CeramicPlanter_2.jpg?v=1655312602");
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ceramic-explore {
+  background-color: white;
+  width: 870px;
+  height: 340px;
+}
+.ceramic-explore-p {
+  font-size: 48px;
+  color: #025048;
+  padding: 2px;
+}
+.ceramic-explore-p1 {
+  font-size: 25px;
+  color: #025048;
+  margin-top: 15px;
+}
+.text-div {
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.shopNow-btn {
+  margin-top: 28px;
+  font-size: 20px;
+  transition-duration: 0.3s;
+}
+.Trending-now {
+  margin-top: 40px;
+}
+.Testimonial-main-div {
+  background-color: #f1f4f1;
+  height: 1170px;
+  margin-top: 50px;
+}
+.Testimonial-uper-text {
+  padding: 90px;
+}
+.Customer-says {
+  font-size: 55px;
+  color: #025048;
+  margin-top: 30px;
+}
+.Testimonial {
+  color: #025048;
+  font: 15px "Work Sans", sans-serif;
+}
+.feedbacks-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+.feedbacks {
+  background-color: white;
+  height: 260px;
+  width: 570px;
+}
+.Feedbacks-p {
+  color: #025048;
+  font: "Work Sans", sans-serif;
+  padding: 3px;
+  font-size: 19px;
+}
+.feedback-container {
+  padding: 40px;
+}
+.feedbacks-p-div {
+  margin-top: 15px;
+}
+.Men-img {
+  height: 50px;
+  border-radius: 40px;
+  width: 50px;
+}
+.Profile-Div {
+  display: flex;
+  margin-top: 13px;
+  gap: 20px;
+  align-items: center;
+}
+.profile-name {
+  color: #025048;
+  font: 17px "Work Sans", sans-serif;
+}
+.profession {
+  font: 12px "Work Sans", sans-serif;
+  color: #025048;
+}
+.Uncover-World {
+  display: flex;
+  margin-top: 120px;
+}
+.ceramic-img2 {
+  width: 650px;
+  height: 470px;
+}
+.color-bckgrnd {
+  background-color: #025048;
+  width: 700px;
+  height: 470px;
+}
+.Uncover-p {
+  color: white;
+  font-size: 53px;
+}
+.color-bckgrnd-container {
+  padding: 75px;
+}
+.shp-btn-2 {
+  margin-top: 25px;
+}
+.insta {
+  width: 22px;
+  border-radius: 10px;
+}
+.fb {
+  width: 22px;
+  border-radius: 10px;
+}
+.social-platforms {
+  margin: 5px;
+}
+.Divider {
+  background-color: rgb(219, 223, 226);
+  width: 100%;
+  height: 1px;
+}
+.footer-paras {
+  padding: 50px;
+}
+.Footer {
+  background-color: #f1f4f1;
+  height: 220px;
+}
+
+
+
