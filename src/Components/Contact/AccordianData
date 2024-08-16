@@ -1,0 +1,24 @@
+  const AccordianData = [
+    {
+      title: "Ordering and Shipping",
+      content: "Find answers to questions about the ordering process, shipping options, delivery times, and tracking your ceramic product shipments.",
+    },
+    {
+      title: "Product Care and Maintenance",
+      content: "Learn how to care for and maintain your ceramic products to ensure their longevity and beauty. Get tips on cleaning, handling, and preserving your pieces.",
+    },
+    {
+      title: "Returns and Refunds",
+      content: "Discover our policies on returns and refunds. This section explains how to initiate a return, the eligibility criteria, and the refund process for your ceramic purchases.",
+    },
+    {
+      title: "Custom Orders and Personalization",
+      content: "Interested in custom or personalized ceramic products? Here, you’ll find information on how to place custom orders and personalize your items to make them uniquely yours.",
+    },
+    {
+      title: "Contact and Customer Support",
+      content: "Have questions or need assistance? Find details on how to get in touch with our customer support team, including contact information and response times. We’re here to help with any inquiries you may have.",
+    },
+  ];
+
+  export default AccordianData
